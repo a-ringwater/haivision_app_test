@@ -1,0 +1,8 @@
+.repo_url {
+  transition: all 0.3s ease;
+}
+
+.repo_url:hover {
+  color: blue;
+  transform: scale(1.1);
+}
