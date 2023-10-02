@@ -1,0 +1,37 @@
+.pagination_wrapper {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.pagination_btn {
+  display: flex;
+  align-items: center;
+  background-color: #038c5a;
+  color: lightgrey;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
+
+.pagination_btn:hover {
+  background-color: #025959;
+  color: lightgrey;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.pagination_btn:disabled {
+  cursor: unset;
+  background-color: lightgrey;
+  color: dimgrey;
+}
+
+.currentPage {
+  text-transform: uppercase;
+}
