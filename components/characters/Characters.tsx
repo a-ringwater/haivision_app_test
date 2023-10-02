@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import CharactersList from "./CharactersList";
 import Pagination from "../pagination/Pagination";
-import useGetCharacters from "@/pages/hook/useGetCharacters";
+import useGetCharacters from "@/hook/useGetCharacters";
 import styles from './Characters.module.css';
 
 const Characters: React.FC = () => {
