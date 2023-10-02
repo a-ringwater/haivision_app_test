@@ -1,0 +1,16 @@
+.item_wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.item_name {
+  font-size: 12px;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.item_wrapper:hover .item_name {
+  opacity: 1;
+}

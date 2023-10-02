@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google'
 import Navbar from './components/navbar/Navbar';
+import Characters from './components/characters/Characters';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,7 +15,7 @@ export default function Home() {
       </section>
 
       <section id='characters'>
-        <h1>Characters</h1>
+        <Characters />
       </section>
     </main>
   )
