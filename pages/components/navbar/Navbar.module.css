@@ -1,0 +1,23 @@
+.nav_wrapper {
+  background-color: #038c5a;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  height: 2rem;
+  position: fixed;
+  width: auto;
+  top: 1rem;
+  left: 1rem;
+  right: 1rem;
+  opacity: 0.75;
+}
+
+.nav_container {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.active_section {
+  color: #f2d272;
+}
